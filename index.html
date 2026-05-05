@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PolyTECH EDU - Платформа сучасних знань</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="logo">
+            <span class="logo-highlight">PolyTECH</span> EDU
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Пошук курсів, навичок чи менторів...">
+            <button class="btn-primary">Знайти</button>
+        </div>
+        <div class="header-actions">
+            <button class="btn-text">Увійти</button>
+        </div>
+    </header>
+
+    <nav class="breadcrumbs">
+        <a href="index.html">Головна</a> &gt; <a href="#">Каталог курсів</a> &gt; <span>Фронтенд-розробка</span>
+    </nav>
+
+    <div class="main-layout">
+        
+        <aside class="sidebar">
+            <nav class="side-menu">
+                <h3>Меню сайту</h3>
+                <ul>
+                    <li><a href="index.html" class="active">Головна (Курси)</a></li>
+                    <li><a href="page2.html">Анкета студента</a></li>
+                    <li><a href="page3.html">Завантаження робіт</a></li>
+                </ul>
+            </nav>
+
+            <div class="promo-box">
+                <h4>Спецпропозиція</h4>
+                <p>Отримай доступ до закритого ком'юніті студентів!</p>
+                <button class="btn-secondary btn-small">Детальніше</button>
+            </div>
+        </aside>
+
+        <main class="content">
+            <div class="content-header" id="top">
+                <h1>Курси з Фронтенд-розробки</h1>
+                <p>Опануй сучасні технології створення веб-інтерфейсів: від базової верстки до динамічних додатків.</p>
+            </div>
+
+            <section class="catalog-grid">
+                <article class="product-card" id="html-css">
+                    <div class="product-image gradient-html">
+                        <span>HTML5 / CSS3</span>
+                    </div>
+                    <div class="card-body">
+                        <span class="badge badge-beginner">Для початківців</span>
+                        <h2>Сучасна веб-верстка</h2>
+                        <p>Навчись створювати семантичні, кросбраузерні та адаптивні веб-сторінки з нуля.</p>
+                        <div class="card-footer">
+                            <span class="duration">⏱ 5 тижнів</span>
+                            <button class="btn-secondary">Переглянути</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" id="javascript">
+                    <div class="product-image gradient-js">
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="card-body">
+                        <span class="badge badge-intermediate">Базовий+</span>
+                        <h2>JavaScript: Від нуля до PRO</h2>
+                        <p>Основи програмування, маніпуляції з DOM та створення інтерактивних елементів.</p>
+                        <div class="card-footer">
+                            <span class="duration">⏱ 8 тижнів</span>
+                            <button class="btn-secondary">Переглянути</button>
+                        </div>
+                    </div>
+                </article>
+
+                 <article class="product-card" id="figma">
+                    <div class="product-image gradient-figma">
+                        <span>Figma Design</span>
+                    </div>
+                    <div class="card-body">
+                        <span class="badge badge-all">Для всіх</span>
+                        <h2>Прототипування інтерфейсів</h2>
+                        <p>Створення зручних макетів, дизайн-систем та UI/UX проєктування веб-додатків.</p>
+                        <div class="card-footer">
+                            <span class="duration">⏱ 4 тижні</span>
+                            <button class="btn-secondary">Переглянути</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" id="react">
+                    <div class="product-image gradient-english">
+                        <span>React</span>
+                    </div>
+                    <div class="card-body">
+                        <span class="badge badge-intermediate">Для початківців</span>
+                        <h2>React: Від нуля до PRO</h2>
+                        <p>Розберемось, як використовувати бібліотеку Redux в парі з React для менеджменту стану. Припинимо прокидатися в холодному поту від слова «ред'юсер».</p>
+                        <div class="card-footer">
+                            <span class="duration">⏱ 9 тижнів</span>
+                            <button class="btn-secondary">Переглянути</button>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </main>
+
+        <aside class="sidebar-right">
+            <div class="page-toc">
+                <h3>На цій сторінці</h3>
+                <ul>
+                    <li><a href="#top">Про напрямок</a></li>
+                    <li><a href="#html-css">Курс HTML/CSS</a></li>
+                    <li><a href="#javascript">Курс JavaScript</a></li>
+                    <li><a href="#figma">Курс Figma</a></li>
+                    <li><a href="#react">Курс React</a></li>
+                </ul>
+            </div>
+        </aside>
+
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p>© 2026 PolyTECH EDU. Інвестуй у свої знання.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>PolyTECH EDU - Анкета</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="logo">PolyTECH EDU</div>
+        <div class="search-bar">
+            <input type="text" placeholder="Пошук курсів...">
+            <button class="btn-primary">Знайти</button>
+        </div>
+    </header>
+
+    <nav class="breadcrumbs">
+        <a href="index.html">Головна</a> &gt; <span>Анкета студента</span>
+    </nav>
+
+    <div class="main-layout">
+        <aside class="sidebar-left">
+            <nav class="side-menu">
+                <h3>Навігація</h3>
+                <ul>
+                    <li><a href="index.html">Головна сторінка</a></li>
+                    <li><a href="page2.html" class="active">Анкета студента</a></li>
+                    <li><a href="page3.html">Завантаження робіт</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="content-main">
+            <section id="form-section" class="content-block">
+                <h1>Анкета абітурієнта</h1>
+                <p>Будь ласка, заповніть форму для реєстрації на курс.</p>
+                
+                <form class="styled-form" action="#" method="post">
+                    <div class="form-group">
+                        <label for="username">Ваше ПІБ:</label>
+                        <input type="text" id="username" name="username" placeholder="Введіть ваше ім'я">
+                    </div>
+
+                    <!-- Додано поле для Email -->
+                    <div class="form-group">
+                        <label for="email">Ваш Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Введіть ваш email" required>
+                    </div>
+
+                    <!-- Додано поле для номеру телефону -->
+                    <div class="form-group">
+                        <label for="phone">Ваш номер телефону:</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+38 (000) 000-00-00" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Ваш рівень підготовки:</label>
+                        <div class="radio-group">
+                            <label><input type="radio" name="level" value="beginner" checked> Початківець</label>
+                            <label><input type="radio" name="level" value="advanced"> Просунутий</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="agree" required>
+                            Я погоджуюсь з правилами платформи
+                        </label>
+                    </div>
+
+                    <button type="submit" class="btn-primary">Відправити анкету</button>
+                </form>
+            </section>
+        </main>
+
+        <aside class="sidebar-right">
+            <div class="page-toc">
+                <h3>На цій сторінці</h3>
+                <ul>
+                    <li><a href="#form-section">Заповнення анкети</a></li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+
+    <footer class="site-footer">
+        <p>© 2026 PolyTECH EDU. Усі права захищені.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>PolyTECH EDU - Завантаження</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="logo">PolyTECH EDU</div>
+        <div class="search-bar">
+            <input type="text" placeholder="Пошук курсів...">
+            <button class="btn-primary">Знайти</button>
+        </div>
+    </header>
+
+    <nav class="breadcrumbs">
+        <a href="index.html">Головна</a> &gt; <span>Завантаження робіт</span>
+    </nav>
+
+    <div class="main-layout">
+        <aside class="sidebar-left">
+            <nav class="side-menu">
+                <h3>Навігація</h3>
+                <ul>
+                    <li><a href="index.html">Головна сторінка</a></li>
+                    <li><a href="page2.html">Анкета студента</a></li>
+                    <li><a href="page3.html" class="active">Завантаження робіт</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="content-main">
+            <section id="upload-section" class="content-block">
+                <h1>Завантаження портфоліо</h1>
+                <p>Оберіть напрямок та завантажте архів з вашими роботами.</p>
+                
+                <form class="styled-form" action="#" method="post">
+                    <div class="form-group">
+                        <label for="course">Оберіть напрямок:</label>
+                        <select id="course" name="course">
+                            <option value="frontend">Фронтенд-розробка</option>
+                            <option value="design">Web-дизайн (Figma)</option>
+                            <option value="english">Англійська для ІТ</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="file-upload">Завантажити файл:</label>
+                        <input type="file" id="file-upload" name="file-upload" class="file-input">
+                    </div>
+
+                    <button type="submit" class="btn-primary">Завантажити</button>
+                </form>
+            </section>
+        </main>
+
+        <aside class="sidebar-right">
+            <div class="page-toc">
+                <h3>На цій сторінці</h3>
+                <ul>
+                    <li><a href="#upload-section">Вибір курсу та файл</a></li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+
+    <footer class="site-footer">
+        <p>© 2026 PolyTECH EDU. Усі права захищені.</p>
+    </footer>
+</body>
+</html>
